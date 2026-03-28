@@ -1,0 +1,13 @@
+import ProductGrid from "./components/ProductGrid";
+import './App.css';
+
+function App() {
+  return (
+    <div>
+      <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Products</h1>
+      <ProductGrid />
+    </div>
+  );
+}
+
+export default App;

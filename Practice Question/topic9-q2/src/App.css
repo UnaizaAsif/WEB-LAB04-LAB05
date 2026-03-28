@@ -1,0 +1,63 @@
+/* ===================== */
+/* Student Table Styling */
+/* ===================== */
+.table-wrapper {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.table-wrapper h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.student-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+  background-color: #d0e7ff;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+  transform: translateY(-2px);
+}
+
+/* No Data Row */
+.no-data {
+  text-align: center;
+  padding: 10px;
+  color: #555;
+  font-style: italic;
+}

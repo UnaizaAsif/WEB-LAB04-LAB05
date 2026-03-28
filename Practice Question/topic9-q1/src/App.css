@@ -1,0 +1,30 @@
+/* ===================== */
+/* Student Table Styling */
+/* ===================== */
+.student-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.student-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+  background-color: #d0e7ff;
+}
